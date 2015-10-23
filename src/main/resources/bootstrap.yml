@@ -1,9 +1,6 @@
 spring:
   application:
     name: tweet
-  cloud:
-    config:
-      uri: http://localhost:8888
 
 ---
 
