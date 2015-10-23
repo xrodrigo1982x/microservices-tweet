@@ -1,0 +1,24 @@
+{
+  "mappings": {
+	 "tweet": {
+		"properties": {
+		   "content": {
+			  "type": "string",
+			  "index": "analyzed"
+		   },
+		   "date": {
+			  "type": "date",
+			  "index": "analyzed",
+			  "format": "yyyy-MM-dd HH:mm:ss"
+		   },
+		   "user": {
+			  "type": "string",
+			  "index": "analyzed"
+		   },
+		   "location": {
+			  "type": "geo_point"
+		   }
+		}
+	 }
+  }
+}
